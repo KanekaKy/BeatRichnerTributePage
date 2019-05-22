@@ -1,0 +1,73 @@
+.container {
+  width: 100%;
+  max-width: $container-max-width;
+  padding-left:  $container-gutter;
+  padding-right: $container-gutter;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+  margin-left:  auto;
+  margin-right: auto;
+}
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {margin-top: 60px;}
+h1 { font-family:"Great Vibes", cursive; font-weight: bold; font-size: 40px; }
+h2 {font-family: 'Dekko', cursive; 
+    margin-top:-10px;
+  margin-bottom:50px; 
+  font-weight:bold;
+  font-size:20px;
+}
+.photos img:nth-of-type(1) {
+    left: 50px;
+    top: 50px;
+    -webkit-transform: rotate(100deg);
+    -moz-transform: rotate(50deg);
+    -o-transform: rotate(50deg);
+    transform: rotate(10deg);
+}
+ 
+.photos img:nth-of-type(2) {
+    left: 50px;
+    top: 50px;
+    -webkit-transform: rotate(-100deg);
+    -moz-transform: rotate(-50deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-5deg);
+}
+ 
+.photos img:nth-of-type(3) {
+    left: 250px;
+    top: 50px;
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    transform: rotate(-10deg);
+}
+ 
+.photos img:nth-of-type(4) {
+    left: 350px;
+    top: 150px;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+p{ font-family: 'Allan', cursive; font-size: 14pt; color: grey; font-weight:bold;}
+h3{font-size: 18pt; text-align: center; margin-top:40px; text-decoration: underline;}
+footer{text-allign:center;}
+ul{background-color: LavenderBlush;
+    width: 800px;
+    padding: 25px;
+    border: 25px yellow;
+   box-shadow: 10px 10px 5px #888888;
+margin:auto}
+footer{text-align:center}
+@media (max-width: 700px) {
+   /* PUT CSS HERE TO ALTER WEBSITE TO SINGLE COLUMN */
+}
